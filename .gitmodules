@@ -1,0 +1,15 @@
+[submodule "parent"]
+	path = parent
+	url = git@github.com:zanata/zanata-parent.git
+[submodule "api"]
+	path = api
+	url = git@github.com:zanata/zanata-api.git
+[submodule "client"]
+	path = client
+	url = git@github.com:zanata/zanata-client.git
+[submodule "common"]
+	path = common
+	url = git@github.com:zanata/zanata-common.git
+[submodule "server"]
+	path = server
+	url = git@github.com:zanata/zanata.git
