@@ -11,6 +11,8 @@ Asgeir Frimannsson                             Project Founder and former Lead
 James Ni <jni@redhat.com>                      Project Contributor
 Sean Flanigan <sflaniga@redhat.com>            Project Lead
 Ding-Yi Chen <dchen@redhat.com>                Project Contributor
+Caius Carlos Chance                            Project Contributor
+Helen Ding                                     Project Contributor
 Alex Eng <aeng@redhat.com>                     Project Contributor
 David Mason <damason@redhat.com>               Project Contributor
 Carlos Munoz <camunoz@redhat.com>              Project Contributor
