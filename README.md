@@ -1,13 +1,16 @@
 Zanata
 =====
 
-Zanata is a web-based system for translators to translate 
-documentation and software online using a web-browser. It is 
-written in Java and uses modern web technologies like JBoss, 
-Seam, GWT, Hibernate, and a REST API. It currently supports 
-translation of DocBook/Publican documentation through PO 
-files. Projects can be uploaded to and downloaded from a Zanata 
-server using a Maven plugin or a Python client.
+Zanata is an web-based system for managing localisation projects.
+Localisation (L10n) is the process of translating software or
+documentation into the various local languages used around the world.
+
+Zanata is written in Java and uses modern web technologies like JBoss,
+Seam, GWT, Hibernate, and a REST API. It currently supports translation
+of software through Gettext/PO, Java Properties and XLIFF (partial), and
+DocBook/Publican documentation through PO files. Projects can be
+uploaded to and downloaded from a Zanata server using a Maven plugin or
+a Python client.
 
 For *developers and writers*: By using Zanata for 
 your document translations, you can open up your project for 

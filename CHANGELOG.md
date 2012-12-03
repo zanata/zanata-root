@@ -1,5 +1,92 @@
 # Zanata change log summary
 
+## zanata-2.0.3
+ * Bug fixes: https://bugzilla.redhat.com/buglist.cgi?j_top=OR&f1=cf_fixed_in&o1=substring&classification=Community&o2=substring&query_format=advanced&f2=cf_fixed_in&bug_status=VERIFIED&bug_status=RELEASE_PENDING&bug_status=POST&bug_status=CLOSED&v1=2.0.3&product=Zanata
+ * Allow admin to add extra locales by typing in the BCP-47 locale code.
+ * TM Merge reports what it did
+ * Allow choice of editor page size
+ * Support txt, dtd and open document format (REST & web interface)
+ * Editor option to disable CodeMirror (to enable browser spell-check)
+ * Detect loss of connection to server
+ * Fix for problem creating users with Kerberos
+ * Allow Project Maintainers to Delete a Source Document
+
+## zanata-2.0.2
+ * Bug fixes for document search/navigation
+
+## zanata-2.0.1
+ * Update jboss-el to avoid bad artifact in repository
+
+## zanata-2.0.0
+ * UI redesign
+ * Bug fixes: https://bugzilla.redhat.com/buglist.cgi?j_top=OR&f1=cf_fixed_in&o1=substring&classification=Community&o2=substring&query_format=advanced&f2=cf_fixed_in&bug_status=CLOSED&v1=1.8.0&v2=2.0.0&product=Zanata
+ * Performance: async push service to avoid timeouts when pushing source/target
+ * Performance: improve performance when loading large documents
+ * Allow user to save work when concurrent edit occurs
+ * Include last translator information in TM info box
+ * Web analytics (Piwik integration)
+ * Navigation breadcrumbs
+ * Bugzilla link in UI
+ * Get Stats about Translation Documents via REST
+ * Remove blinking notification in editor
+ * Configurable page size
+ * Advanced glossary features
+ * Open ID Authentication
+ * Admin role assignment configuration for authentication types
+ * Highlight tags in editor fields (CodeMirror for editor)
+ * Translation editor rewrite
+  * Project-level default Copy Trans options
+  * Red bars for translations with validation warnings should stay in red when moving to the next row
+ * Option to show word or message based statistics
+ * Visible whitespace in editor
+ * View history of translations for a text flow
+
+## zanata-1.7.3
+ * Bug fixes: https://bugzilla.redhat.com/buglist.cgi?f1=cf_fixed_in&o1=substring&classification=Community&query_format=advanced&bug_status=CLOSED&v1=1.7.3&product=Zanata
+
+## zanata-1.7.2
+ * Bug fixes: https://bugzilla.redhat.com/buglist.cgi?classification=Community&target_release=1.7.2&query_format=advanced&bug_status=CLOSED&product=Zanata
+
+## zanata-1.7.1
+ * Bug fixes: https://bugzilla.redhat.com/buglist.cgi?classification=Community&target_release=1.7.1&query_format=advanced&bug_status=CLOSED&product=Zanata
+
+## zanata-1.7.0
+ * UI Improvements
+ * Bug fixes: https://bugzilla.redhat.com/buglist.cgi?classification=Community&target_release=1.6.2&target_release=1.7&query_format=advanced&bug_status=CLOSED&product=Zanata
+ * Don't enforce locales for source documents
+ * On-Demand copy trans
+ * Email log appender
+ * Centralise management of key shortcuts in Zanata
+ * Improvements to reindexing (processing in small batches, index classes separately)
+ * Editor validation for XML entities
+ * Undo button for saved translations
+ * Translation Memory merge in editor
+ * Add support for positional strings in printf validator
+ * Translation Memory now uses word-based indexing
+
+
+## zanata-1.6.1
+ * Bug fixes: https://bugzilla.redhat.com/buglist.cgi?classification=Community&target_release=1.6.1&query_format=advanced&bug_status=CLOSED&product=Zanata
+ * Allow Zanata to add locales for which plural form is not known
+
+## zanata-1.6.0
+ * UI Improvements
+ * Bug fixes: https://bugzilla.redhat.com/buglist.cgi?classification=Community&target_release=1.6&target_release=1.6-alpha-1&target_release=1.6-beta-1&query_format=advanced&bug_status=CLOSED&product=Zanata
+ * Allow Project Maintainers to edit all language files
+ * Glossary suggestions
+ * Add the ability to specify custom locales that are not enabled by default
+ * Upgrade Liquibase to version 2.0
+ * Project grouping
+ * Support plural forms
+ * Offline translation feature via web UI
+ * Allow translators to push translations using Maven client
+ * Indicators for simultaneous edits
+ * Java style variable validations in translation editor
+ * "Create Project" for non-administrator users
+ * Display page context in window title
+ * Ability to monitor Zanata server statistics (JavaMelody)
+ * Overview for available keyboard shortcuts in web editor
+
 ## zanata-1.5.0
  * Allow bookmarking of selected document, document list filter and current view: https://bugzilla.redhat.com/show_bug.cgi?id=757621
  * Add workspace query string parameters for generating a custom doclist with a custom title: https://bugzilla.redhat.com/show_bug.cgi?id=758587
