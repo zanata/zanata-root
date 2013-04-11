@@ -1,7 +1,7 @@
 Zanata
 =====
 
-Zanata is an web-based system for managing localisation projects.
+Zanata is a web-based system for managing localisation projects.
 Localisation (L10n) is the process of translating software or
 documentation into the various local languages used around the world.
 
