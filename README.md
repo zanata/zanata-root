@@ -26,4 +26,13 @@ translators in seconds.
 
 Zanata is Free software, licensed under the [LGPL][].
 
+## How to use this super module
+
+First git clone this module
+```
+git submodule init
+git submodule update --checkout
+```
+This will check out each submodules.
+
 [LGPL]: http://www.gnu.org/licenses/lgpl-2.1.html
